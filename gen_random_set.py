@@ -9,6 +9,6 @@ Created on Wed Aug 24 14:46:38 2022
 
 bootstrap_loandf= []
 
-#code base to be iterated
-x= np.random.choice(hmeq['LOAN'], 5)
-bootstrap_loandf.append(x)
+for i in range(2): 
+    x= np.random.choice(hmeq['LOAN'], 5)
+    bootstrap_loandf.append(x)
